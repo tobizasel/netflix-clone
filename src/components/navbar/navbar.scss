@@ -1,0 +1,25 @@
+.nav{
+    width: 100%;
+    padding: 20px 40px;
+    position: fixed;
+    top: 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    
+    transition: all 0.3s;
+    transition-timing-function: ease-in;
+
+    &__logo{
+        width: 80px;
+        //object-fit: contain;
+    }
+
+    &__user{
+        width: 30px;
+    }
+}
+
+.nav__scrolled{
+    background-color: #111;
+}
